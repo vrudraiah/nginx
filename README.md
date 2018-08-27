@@ -5,7 +5,7 @@ This cookbook installs and configures a simple web site using Nginx web server.
 
 Usage
 =====
-Add `nginx::default` to your node's run run_list
+Add `nginx::default` to your node's run_list
 
 
 Requirements
