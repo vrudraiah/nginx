@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the nginx cookbook.
 
+# 1.1.0
+
+- Implemented nginx reload instead of restart to avoid downtime & port forwarding issues fixed between host/guest.
+
 # 1.0.0
 
 BREAKING CHANGES:
