@@ -30,6 +30,7 @@ end
 
 template '/etc/nginx/nginx.conf' do
   source 'nginx.conf.erb'
+  mode 0600
   notifies :reload, 'service[nginx]', :immediately
 end
 
